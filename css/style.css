@@ -8,6 +8,12 @@
 
 }
 
+.categoria{
+  background: #7092c0;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+}
 
 
 /*headings*/
