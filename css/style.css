@@ -8,6 +8,14 @@
 
 }
 
+.main{
+  background: #e2e2e2;
+  margin-top: -20px;
+  padding-top: 20px;
+  margin-bottom: -20px;
+  padding-bottom: 20px;
+}
+
 .categoria{
   background: #7092c0;
   padding: 5px 20px;
@@ -151,6 +159,53 @@ footer h3{
   
 }
 
+footer{
+  background: #102d77;
+  color: white;
+  padding: 20px 0px;
+  font-size: 0.8rem;
+}
+
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.clear{
+  clear: both;
+}
+
+.noticia{
+  margin-bottom: 20px;
+   background: white;
+   -webkit-box-shadow: 2px 11px 25px -4px rgba(0,0,0,0.32);
+-moz-box-shadow: 2px 11px 25px -4px rgba(0,0,0,0.32);
+box-shadow: 2px 11px 25px -4px rgba(0,0,0,0.32);
+
+}
+
+.noticia img {
+  max-width: 100%;
+}
+
+.noticia .fecha{
+  color: #7092c0;
+  margin-top: 15px;
+
+}
+.noticia .item{
+  padding: 0px;
+}
+
+.more{
+  background: #aeaeae;
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  margin-bottom: 15px;
+}
+
 /*extra small*/
 @media (min-width: 340px) {  
     h1 {font-size: 2rem;}
@@ -160,6 +215,12 @@ footer h3{
     .mar{margin-bottom: 10px;}
     .cita{font-size: 1.1rem;}
     .autor{font-size: 1rem;}
+    .right,.left{
+      float: none;
+    }
+    footer{
+      font-size: .6rem;
+    }
   }
 
 /* Small devices (landscape phones, 544px and up) */
@@ -171,6 +232,12 @@ footer h3{
     .cita{font-size: 1.2rem;}
     .autor{font-size: 1.1rem;}
     .mar{margin-bottom: 15px;}
+    .right,.left{
+      float: none;
+    }
+     footer{
+      font-size: .7rem;
+    }
   }
 
   /* Medium devices (tablets, 768px and up) */
@@ -182,5 +249,14 @@ footer h3{
     .cita{font-size: 1.3rem;}
     .autor{font-size: 1.2rem;}
     .mar{margin-bottom: 20px;}
+    .left{
+      float: left;
+    }
+    .right{
+      float: right;
+    }
+     footer{
+      font-size: .8rem;
+    }
   }
 
