@@ -1,0 +1,186 @@
+/* fonts */
+.lato-light{ font-family: 'Lato', sans-serif; font-weight:300  }
+.lato-regular{ font-family: 'Lato', sans-serif; font-weight:400  }
+.lato-bold{ font-family: 'Lato', sans-serif; font-weight:700  }
+
+.big-img{
+  width: 100%;
+
+}
+
+.categoria{
+  background: #7092c0;
+  padding: 5px 20px;
+  color: white;
+  display: inline-block;
+}
+
+
+/*headings*/
+h1{
+  color:#003366;
+}
+
+h3{
+  color: #103595;
+}
+/*
+strong{
+  font-weight: lighter;
+  color:#7092c0;
+}*/
+
+
+hr{
+  height: 5px;
+  background: #7092c0;
+}
+
+a,
+a:hover,
+a:active,
+a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+
+.header{
+  border-bottom: 4px solid #003366;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+footer h3{
+  border-bottom: 1px solid #7092c0;
+}
+
+.social ul{
+  margin: none;
+  list-style: none;
+  display: flex;
+}
+
+.social ul li{
+  padding: 10px 5px;
+}
+
+.social img.icon{
+  width: 30px;
+  height: auto;
+}
+
+/* QUOTE */
+.cita{
+  position: relative;
+  color: #7092c0;
+  font-size: 2rem;
+  width: 80%;
+  max-width: 700px;
+  margin: auto;
+}
+
+.autor{
+  font-size: 1.2rem;
+  padding-left: 20px;
+}
+
+.marco-superior{
+  background: url(../img/quote-m.png);
+  background-repeat: repeat-x;
+  height: 22px;
+  line-height: 0;
+}
+
+.marco-inferior{
+  background: url(../img/quote-mb.png);
+  background-repeat: repeat-x;
+  height: 22px;
+  position: relative;
+  line-height: 0;
+}
+
+.globo
+{
+    background: url(../img/quote-r.png) top right repeat-y;
+    padding: 10px 30px 0px 20px;
+}
+
+.quote-tl{
+  background: url(../img/quote-tl.png);
+  width: 48px;
+  height: 22px;
+  display: inline-block;
+}
+
+.quote-tr{
+  background: url(../img/quote-tr.png);
+  width: 48px;
+  height: 22px;
+  display: inline-block;
+  float: right;
+}
+
+.quote-bl{
+  background: url(../img/quote-bl.png);
+  width: 48px;
+  height: 22px;
+  display: inline-block;
+}
+
+.quote-br{
+  background: url(../img/quote-br.png);
+  width: 48px;
+  height: 22px;
+  display: inline-block;
+  float: right;
+}
+
+.flecha{
+  position: absolute;
+  bottom: -30px;
+  left:50px;
+  background: url(../img/quote-arrow.png);
+  width: 47px;
+  height: 34px;
+
+}
+
+.cita-globo{
+   background: url(../img/quote-l.png) top left repeat-y;
+   margin-bottom: 30px;
+  
+}
+
+/*extra small*/
+@media (min-width: 340px) {  
+    h1 {font-size: 2rem;}
+    h2 {font-size: 1.2rem;}
+    h3 {font-size: 1.1rem;}
+    p{ font-size: 1rem; }
+    .mar{margin-bottom: 10px;}
+    .cita{font-size: 1.1rem;}
+    .autor{font-size: 1rem;}
+  }
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+    h1 {font-size: 2.1rem;}
+    h2 {font-size: 1.4rem;}
+    h3 {font-size: 1.2rem;}
+    p{ font-size: 1.1rem; }
+    .cita{font-size: 1.2rem;}
+    .autor{font-size: 1.1rem;}
+    .mar{margin-bottom: 15px;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {  
+    h1 {font-size: 2.5rem;}
+    h2 {font-size: 1.5rem;}
+    h3 {font-size: 1.3rem;}
+    p{ font-size: 1.2rem; }
+    .cita{font-size: 1.3rem;}
+    .autor{font-size: 1.2rem;}
+    .mar{margin-bottom: 20px;}
+  }
+
